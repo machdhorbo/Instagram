@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: auto;
+   
+}
+
+#fb{
+    translate: initial;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 240px;
+    margin: auto;
+}
+.forgot-password a{
+    font-size: 14px;
+    margin-top: 7px;
+    position: absolute;
+   right: 64px;
+   color: #3897f0;
+   text-decoration: none;
+   font-weight: 300;
+
+    
+}
+
+.login-box {
+    background-color: #fff;
+    
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-box h1 {
+    font-family: 'Instagram Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+.login-box button {
+    width: 110%;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #3897f0;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.or-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+.social-login {
+    margin-bottom: 20px;
+}
+
+.facebook-login {
+    width: 110%;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #3897f0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.forgot-password {
+    color: #00376b;
+    text-decoration: none;
+}
+
+.signup-box {
+    
+    
+    text-align: center;
+}
+
+.signup-box p {
+    margin-top: 7px;
+    
+   font-weight: 300;
+    margin-left: 20px;
+    font-size: 14px;
+    
+}
+
+.signup-box a {
+    color: #3897f0;
+    text-decoration: none;
+    font-weight: bold;
+}
